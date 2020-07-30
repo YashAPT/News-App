@@ -13,14 +13,14 @@ public class Client {
     }
 
 
-    public static synchronized Client getInstance(){
-        if(client==null){
-            client=new Client();
+    public static synchronized Client getInstance() {
+        if (client == null) {
+            client = new Client();
         }
         return client;
     }
 
-    public Interface getApi(){
+    public Interface getApi() {
         return retrofit.create(Interface.class);
 
     }

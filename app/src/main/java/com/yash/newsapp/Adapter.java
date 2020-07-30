@@ -38,7 +38,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         final Articles art = articles.get(position);
-        String url = art.getUrl();
+        final String url = art.getUrl();
         holder.newsTitle.setText(art.getTitle());
         holder.newsDate.setText(art.getPublishedAt());
         String imageUrl = art.getUrlToImage();
@@ -48,7 +48,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, NewsActivity.class);
-                intent.putExtra("url", art.getUrl());
+                intent.putExtra("url", url);
                 context.startActivity(intent);
             }
         });
