@@ -8,5 +8,8 @@ Dependencies used
 
 API - newsapi.org
 
+![](Images/img1.jpg)
+![](Images/img2.jpg)
+
 
 
