@@ -1,6 +1,6 @@
 # Description
 
-App Name - **_ News App_** 
+App Name - **_News App_** 
 
 News app using retrofit and web View.
 
@@ -18,8 +18,8 @@ News app using retrofit and web View.
 
 # Dependencies used
 
-1. [Retrofit](https://square.github.io/retrofit/)
-3. [Picasso](https://github.com/square/picasso) 
+1. [Retrofit](https://square.github.io/retrofit/) - for fetching data
+3. [Picasso](https://github.com/square/picasso) - for image processig
 
 # Api Used
 
