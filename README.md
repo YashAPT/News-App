@@ -8,6 +8,7 @@ News app using retrofit and web View.
 
 1. Display News in RecyclerView 
 2. News Fetched Using Retrofit
+3. Navigate to browser for viewing news
 
 # What did i learned?
 
