@@ -24,7 +24,7 @@ News app using retrofit and web View.
 
 # Api Used
 
-[newsapi.og](https://newsapi.org/)
+[newsapi.org](https://newsapi.org/)
 
 # Screenshots
 
